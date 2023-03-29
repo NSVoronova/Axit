@@ -111,16 +111,17 @@ line-height: 25px;
 cursor: pointer;
 }
 
+
+
 .tab_button:hover {
   background-color:  #AB4949;
   border: 1px solid #AB4949;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 25px;
-cursor: pointer;
+}
+
+.tab_button:active {
+  box-shadow: inset 0px 0px 10px #AB4949;
+  background-color: #EC7979;
+  border: 1px solid #EC7979;
 }
 
 /* css-правила для страницы "about" */
